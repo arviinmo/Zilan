@@ -8,10 +8,12 @@ import BottomContainer from '../BottomContainer/BottomContainer';
 
 export default function MainContainer() {
   return (
-    <Container sx={{width: 2/3, borderRadius: 5, height: '80vh', bgcolor: '', border: 1, p: 5, mt: 3 }}>
-      <LeftContainer/>
-      <RightContainer />
-      <BottomContainer />
-    </Container>
+    <div  sx={{bgcolor: '#1FAB89'}}>
+      <Container sx={{width: 2/3, borderRadius: 5, height: '80vh', bgcolor: '#DFF4F3', color: '#252A34', p: 5, mt: 3 }}>
+        <LeftContainer/>
+        <RightContainer />
+        <BottomContainer />
+      </Container>
+    </div>
   );
 }

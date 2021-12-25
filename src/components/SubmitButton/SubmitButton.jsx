@@ -10,7 +10,7 @@ export default function SubmitButton() {
     <Button
     variant="contained"
     endIcon={<PlayArrowIcon />}
-    sx={{bgcolor: 'purple', mt: 12, mr: 1, height: 40, width: 120, borderRadius: 3}}
+    sx={{bgcolor: '#6639A6', mt: 12, height: 40, width: 120, borderRadius: 3}}
     >
     Calculate
     </Button>
