@@ -2,26 +2,18 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
-import { createTheme } from '@mui/material/styles';
-import { deepPurple } from '@mui/material/colors';
-
-const outerTheme = createTheme({
-  palette: {
-    primary: {
-      main: deepPurple[500],
-    },
-  },
-});
 
 
 export default function SubmitButton() {
   return (
+    <div>
     <Button
-        variant="contained"
-        endIcon={<PlayArrowIcon />}
-        theme={outerTheme}
+    variant="contained"
+    endIcon={<PlayArrowIcon />}
+    sx={{bgcolor: 'purple', mt: 12, mr: 1, height: 40, width: 120, borderRadius: 3}}
     >
-        Calculate
+    Calculate
     </Button>
+    </div>
   );
 }

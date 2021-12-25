@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 export default class Input extends Component {
     render() {
         return (
-            <div>
+            <div sx={{}}>
             <TextField
                 id="outlined-number"
                 type="number"
