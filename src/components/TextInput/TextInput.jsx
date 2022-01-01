@@ -8,8 +8,8 @@ export default function TextInput(){
             type="text"
             label="paste whole text"
             multiline
-            rows={5}
             placeholder='add the whole text here and we calculate it for you :)'
+            rows={5}
             sx={{ width: 400 }}
             InputLabelProps={{
                 shrink: true,

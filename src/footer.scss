@@ -5,8 +5,9 @@ footer {
     margin-top: 35px;
     padding: 0 40px;
     display: flex;
-    justify-content: space-between;
     gap: 120px;
+    justify-content: space-between;
+
   
     @media only screen and (max-width: 918px) {
       padding: 0 20px;
